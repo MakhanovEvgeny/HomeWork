@@ -1,0 +1,119 @@
+.tabs-container {
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs-subcontainer {
+  width: 1170px;
+}
+
+.tabs__menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tabs__menu-btn {
+  width: 185px;
+  height: 40px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs__menu-btn button {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  background: none;
+  border: none;
+}
+
+.tabs__menu-btn:first-of-type {
+  width: 200px;
+  border: 1px solid #C6CBCD;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: none;
+}
+
+.tabs__menu-btn:last-of-type {
+  width: calc(100% - 200px - 185px - 185px);
+  border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs__menu-btn:hover {
+  text-decoration: underline 1px rgb(13, 111, 238);
+}
+
+.tabs__card {
+  border: 1px solid #C6CBCD;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs__info {
+  width: 570px;
+  margin: 0 30px 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tabs__header {
+  height: 124px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tabs__header h3 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.tabs__story {
+  margin: 27px 0;
+}
+
+.tabs__story h5 {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.tabs__btn-download {
+  margin-bottom: 54px;
+}
+
+.tabs__btn-download button {
+  width: 270px;
+  height: 60px;
+  background: #EC7979;
+  border: none;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.tabs__btn-download button:hover {
+  text-decoration: underline 1px rgb(13, 111, 238);
+}
+
+.tabs__img{
+  display: flex;
+  
+}

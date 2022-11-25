@@ -1,0 +1,107 @@
+.customers__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers__subcontainer {
+  width: 1170px;
+  margin: 50px 0 64px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.customers__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers__title h2 {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150px;
+  text-transform: uppercase;
+}
+
+.customers__subtitle h5 {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878B;
+}
+
+.customers__info {
+  width: 1170px;
+  margin-top: 83px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customers__story {
+  width: 370px;
+}
+
+.customers__story_text {
+  padding: 38px 0 37px 0;
+  background: #E2E2E2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.customers__story_text h5 {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878B;
+}
+
+.customers__story_text_triangle {
+  width: 30px;
+  height: 20px;
+  background: #E2E2E2;
+  position: relative;
+  transform: rotate(-45deg);
+  left: 50px;
+  bottom: 14px;
+}
+
+.customers__person {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customers__img {}
+
+.customers__person_data {
+  width: 270px;
+}
+
+.customers__person_name {
+  margin-bottom: 15px;
+}
+
+.customers__person_name h4 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 54px;
+  text-transform: capitalize;
+}
+
+.customers__person_title h5 {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
